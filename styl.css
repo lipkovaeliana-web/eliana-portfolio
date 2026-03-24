@@ -1,0 +1,247 @@
+@font-face {
+      font-family: Poppins;
+      src: url(fonty/Poppins-Regular.ttf);
+      font-weight: normal;
+}
+@font-face {
+      font-family: Poppins;
+      src: url(fonty/Poppins-ExtraBold.ttf);
+      font-weight: bold;
+}
+body {
+    font: 14px "Poppins";
+    color: #2d2931;
+    background: #F3EED9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0 0 0;
+    min-width: 960px;
+}
+.centrovany {
+      text-align: center;
+}
+.avatar {
+    float: right;
+    width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1)
+}
+article header{
+    height: 80px;
+}
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    padding: 10px 0;
+    color: #C56114;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    border-bottom: 4px solid #EF6534;
+    width: max-content;
+}
+article h2 {
+    font-size: 2em;
+}
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #C56114;
+}
+article p {
+  margin-bottom: 1.2em;
+}
+.cistic {
+    clear: both;
+}
+.reference-tlacitko {
+    background: #C56114;
+    color: white;
+    font-size: 0.9em;
+    text-transform:uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #BCC6A3;
+    color: #2d2931; /* tmavý text aby byl čitelný */
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+#logo {
+    height: 110px;
+    margin: auto 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    background: url("obrazky/logo.png") no-repeat left center;
+    background-size: 110px 110px;
+}
+
+#logo > * {
+    margin: 0;
+}
+#logo > * {
+    margin: 0 0 0 50px;
+}
+#logo h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.2em;
+    color: #2d2931;
+}
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#logo small {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+nav ul {
+    margin:0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+nav ul li {
+    padding: 0 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+nav ul a {
+    color: #2d2931;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #C56114;
+}
+.kontakt-tlacitko {
+    background: #C56114;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.kontakt-tlacitko:hover,
+.reference-tlacitko {
+    background: #C56114;
+    color: white;
+}
+html {
+    background: #F3EED9;
+}
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background: #C56114;
+    padding: 50px 0 0 0;
+    clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #F3EED9;
+}
+.vlevo {
+    float: left;
+}
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+#dovednosti {
+    border-collapse: collapse;
+}
+#dovednosti img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+#dovednosti td img {
+    display: block;
+    margin: 0 auto;
+}
+#reference img {
+    border:1px solid gray;
+    padding:6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}
+#reference a {
+    text-decoration: none;
+}
+#reference a:hover {
+    text-decoration: none;
+
+}
+#reference img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+.projekt {
+    margin-bottom: 50px;
+}
+
+.projekt img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projekt a {
+    color: #C56114;
+    text-decoration: none;
+}
+
+.projekt a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.kontakt-radek {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
