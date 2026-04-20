@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="cs-cz">
     <head>
-            <meta charset="utf-8">
-            <title>Portfolio | Eliana Lipková</title>
-            <meta name="description" content="Portfolio Eliany Lipkové – junior web developer zaměřený na React a Django. Ukázky projektů a dovedností." />
-            <meta name="keywords" content="portfolio, web developer, React, Django, junior developer" />
-            <meta name="author" content="Eliana Lipková" />
-            <link rel="shortcut icon" href="obrazky/pc.ico" />
-            <link rel="stylesheet" href="styl.css" type="text/css"/>
-    
+        <meta charset="utf-8">
+        <title>Portfolio | Eliana Lipková</title>
+        <meta name="description" content="Portfolio Eliany Lipkové – junior web developer zaměřený na React a Django. Ukázky projektů a dovedností." />
+        <meta name="keywords" content="portfolio, web developer, React, Django, junior developer" />
+        <meta name="author" content="Eliana Lipková" />
+        <link rel="shortcut icon" href="obrazky/pc.ico" />
+        <link rel="stylesheet" href="styl.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
@@ -17,8 +17,11 @@
                 <small>Junior Fullstack Developer</small>
             </div>
             <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">☰</label>
+
                 <ul>
-                    <li class="aktvivni"><a href="index.html">Domů</a></li>
+                    <li class="aktivni"><a href="index.html">Domů</a></li>
                     <li><a href="omne.html">O mně</a></li>
                     <li><a href="dovednosti.html">Dovednosti</a></li>
                     <li><a href="reference.html">Reference</a></li>
@@ -26,39 +29,42 @@
                 </ul>
             </nav>
         </header>
-         <article>
+
+        <article>
             <header>
                 <h1>Kdo jsem</h1>
             </header>
             <section>
-
                 <img src="obrazky/avatar.png" class="avatar" alt="Eliana Lipková" />
-             
+
+                <p>Vítejte v mém portfoliu webového vývoje.</p>
+
                 <p>
-                 Vítejte v mém portfoliu webového vývoje.
+                    Jmenuji se Eliana Lipková a věnuji se vývoji webových aplikací se zaměřením na React a Django.
                 </p>
+
                 <p>
-                 Jmenuji se Eliana Lipková a věnuji se vývoji webových aplikací se zaměřením na React a Django.</p>               
+                    Pracuji jak na <strong>frontendové</strong> části aplikací, tak na <strong>backend</strong> logice a práci s <em>databází</em>.
                 </p>
-                <p>
-                   Pracuji jak na <strong>frontendové</strong> části aplikací, tak na <strong>backend</strong> logice a práci s <em>databází</em>.
-                </p>
+
                 <p>
                     Na tomto webu prezentuji své projekty a technologické dovednosti. V případě zájmu mě neváhejte kontaktovat prostřednictvím <a href="kontakt.html">kontaktní stránky</a>.
                 </p>
-                <p>
-                    Ve volném čase ráda čtu a trávím čas v přírodě.
-                </p>
+
+                <p>Ve volném čase ráda čtu a trávím čas v přírodě.</p>
+
                 <p>
                     Aktivně hledám příležitost na pozici <strong>junior web developer</strong>, kde mohu dále růst a získávat praxi.
                 </p>
-                <p class="tlacitko-odstavec">
-                     <a href="reference.html" class="reference-tlacitko">Zobrazit reference</a>
-                </p>
-                <div class="cistic"></div>
 
+                <p class="tlacitko-odstavec">
+                    <a href="reference.html" class="reference-tlacitko">Zobrazit reference</a>
+                </p>
+
+                <div class="cistic"></div>
             </section>
         </article>
+
         <footer>
             <p>© 2026 Eliana Lipková</p>
         </footer>
