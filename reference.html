@@ -15,6 +15,7 @@
     <script src="js/lightbox.min.js"></script>
 
     <title>Reference | Eliana Lipková</title>
+
 </head>
 <body>
     <header>
@@ -69,6 +70,38 @@
                     </a>
                 </p>
             </div>
+            <div class="projekt">
+    <h2>Quote Dashboard</h2>
+
+            <a href="obrazky/laravel.png" title="Quote Dashboard" rel="lightbox[reference]">
+                <img src="obrazky/laravel.png" alt="Quote Dashboard" />
+            </a>
+
+            <p>
+                Dashboard uživatelů a citátů vytvořený v rámci technického úkolu.
+                Aplikace načítá uživatele z backendu, zobrazuje informace o posledním
+                přihlášení a aktivním stavu a ke každému uživateli přiřazuje citát
+                získaný z externího API.
+            </p>
+
+            <p>
+                Součástí řešení bylo napojení externího API, práce s DTO objekty,
+                Form Requests, mockování dat při testování a propojení Laravel backendu
+                s React frontendem.
+            </p>
+
+            <p>
+                <strong>Technologie:</strong> Laravel, React, PHP, JavaScript, REST API, DTO, Inertia.js
+            </p>
+
+            <p>
+                <a href="https://github.com/lipkovaeliana-web/magna-quote-dashboard" target="_blank">
+                    Zobrazit na GitHubu
+                </a>
+            </p>
+
+            </div>
+
 
             <div class="projekt">
                 <h2>Portfolio web</h2>
@@ -131,5 +164,14 @@
     <footer>
         <p>© 2026 Eliana Lipková</p>
     </footer>
+    
+<script>
+    lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        disableScrolling: true,
+        alwaysShowNavOnTouchDevices: true
+    });
+</script>
 </body>
 </html>

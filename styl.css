@@ -477,3 +477,20 @@ footer a:hover {
         padding: 25px 15px;
     }
 }
+
+.lb-data .lb-close {
+    display: block !important;
+    opacity: 1 !important;
+    width: 32px;
+    height: 32px;
+    background: none !important;
+    text-decoration: none;
+}
+
+.lb-data .lb-close::after {
+    content: "×";
+    color: white;
+    font-size: 36px;
+    line-height: 32px;
+    font-weight: bold;
+}
